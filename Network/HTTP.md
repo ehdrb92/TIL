@@ -1,6 +1,6 @@
 # HTTP
 
-HTTP는 HyperText Transfer Protocol의 약자입니다. 하나하나 용어에 대해 뜻을 알아보자.
+HTTP는 `HyperText Transfer Protocol`의 약자이다. 뜻하는 바가 무엇인지, 그리고 HTTP의 특징에 대해 알아보았다.
 
 ## HyperTxet
 
@@ -28,22 +28,22 @@ HTTP의 요청은 프론트엔드(클라이언트)에서 백엔드(서버)에 �
 
 * Start Line
 
-HTTP Method : 해당 요청이 의도한 액션을 정의하는 부분</br>
-Request target : 해당 request가 전송되는 목표 url</br>
+HTTP Method : 해당 요청이 의도한 액션을 정의하는 부분  
+Request target : 해당 request가 전송되는 목표 url  
 HTTP Version : 사용되는 HTTP 버전
 
 * Headers
 
 해당 요청에 대한 추가 정보(메타 데이터)를 담고있는 부분이다.
 
-Key : Value 값으로 되어있다 (JavaScript의 객체, Python의 딕셔너리 형태라고 보면 된다)</br>
-Host : 요청을 보내는 목표(타겟)의 주소. 즉, 요청을 보내는 웹사이트의 기본 주소가 된다. (ex. www.apple.co.kr)</br>
-User-Agent : 요청을 보내는 클라이언트의 대한 정보 (ex. chrome, firefox, safari)</br>
-Content-Type : 해당 요청이 보내는 메세지 body의 타입 (ex. application/json)</br>
-Content-Length : body 내용의 길이</br>
+Key : Value 값으로 되어있다 (JavaScript의 객체, Python의 딕셔너리 형태라고 보면 된다)  
+Host : 요청을 보내는 목표(타겟)의 주소. 즉, 요청을 보내는 웹사이트의 기본 주소가 된다. (ex. www.apple.co.kr)  
+User-Agent : 요청을 보내는 클라이언트의 대한 정보 (ex. chrome, firefox, safari)  
+Content-Type : 해당 요청이 보내는 메세지 body의 타입 (ex. application/json)  
+Content-Length : body 내용의 길이  
 Authorization : 회원의 인증/인가를 처리하기 위해 로그인 토큰을 Authroization 에 담는다
 
-```html
+```terminal
 Headers: {
     Host:  
     User-Agent:
@@ -59,7 +59,7 @@ Headers: {
 
 ex) 로그인 시에 서버에 보낼 내용
 
-```html
+```terminal
 "user_email":"wecode@gmail.com" "user_password": "wecode"
 ```
 
@@ -69,11 +69,11 @@ HTTP 응답 구조 또한 세 부분으로 나뉜다.
 
 * Status Line
 
-HTTP Version : 사용되는 HTTP 버전</br>
-Status Code: 응답 메세지의 상태 코드</br>
+HTTP Version : 사용되는 HTTP 버전  
+Status Code: 응답 메세지의 상태 코드  
 Status Text: 응답 메세지의 상태를 간략하게 설명해주는 텍스트
 
-```html
+```terminal
 HTTP/1.1 404 Not Found
 # 해석: HTTP 1.1 버전으로 응답하고 있는데, 프론트엔드에서 보낸 요청(ex. 로그인 시도)에 대해서
 # 유저의 정보를 찾을 수 없기 때문에(Not Found) 404 상태 메세지를 보낸다.
@@ -93,7 +93,7 @@ HTTP/1.1 200 SUCCESS
 가장 많이 사용되는 Body 의 데이터 타입은 JSON(JavaScript Object Notation) 입니다.</br>
 로그인 요청에 대해 성공했을 때 응답의 내용
 
-```html
+```terminal
 Body: {
     "message": "SUCCESS"
     "token": "kldiduajsadm@9df0asmzm" (암호화된 유저의 정보)
