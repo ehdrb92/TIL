@@ -8,8 +8,6 @@
 
 **nosql**이란 not only sql의 의미로 간단하게 sql을 제외한 모든 것이라 생각할 수 있다.
 
-
-
 ## SQL 언어의 구분
 
 * DDL(Data Definition Language, 데이터 정의 언어)
