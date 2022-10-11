@@ -6,10 +6,6 @@ Stack과 Queue는 비슷하지만 조금은 다른 구조를 가진 데이터 �
 
 **Stack**자료구조는 데이터들이 들어오는 순서대로 쌓이고 마지막에 들어온 데이터부터 나오는 LIFO(Last In First Out)방식의 데이터 구조이다.
 
-![stack](./image/stack.png)
-
-위 사진을 보면 알 수 있듯이 구조는 그리 복잡하지 않다.
-
 ### 활용
 
 어떤 경로 혹은 순서의 기록을 역순으로 저장하고 처리해야 할 때 많이 쓰인다.
@@ -21,15 +17,11 @@ Stack과 Queue는 비슷하지만 조금은 다른 구조를 가진 데이터 �
 
 **Queue**자료구조는 데이터들이 들어오는 순서대로 쌓이고 들어온 데이터부터 나오는 FIFO(First In First Out)방식의 데이터 구조이다.
 
-![queue](./image/queue.png)
-
 ### Double Ended Queue(Deque)
 
 **Deque**는 Queue의 양 끝단에서 데이터의 삽입/삭제가 가능한 자료구조 이다.
 
 Stack과 Queue의 혼합형 자료구조라고 생각할 수 있다.
-
-![deque](./image/deque.png)
 
 ### 활용
 

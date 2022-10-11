@@ -77,7 +77,3 @@ class User(models.Model):
 python manage.py makemigrations
 python manage.py migrate
 ```
-
-![tables](./images/tables.png)
-
-위와 같이 장고의 기본 데이터베이스 테이블을 포함해 모델링을 하여 만든 users 테이블이 존재한다.

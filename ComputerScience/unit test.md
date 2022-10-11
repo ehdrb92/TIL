@@ -10,8 +10,6 @@
 * 시스템을 테스트 할때 크게 3가지 방법으로 나눌 수 있다
 * 전체 테스트 비중을 아래와 같은 수치로 구현하는 것이 권장된다
 
-![pyramid](./image/test-automation-pyramid.jpg)
-
 * E2E Testing - 10%
 * Integrating Testing - 20%
 * Unit Testing - 70%
