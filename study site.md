@@ -5,3 +5,6 @@
 * [데이터베이스 다이어그램](https://dbdiagram.io/home) - 데이터베이스 스키마를 이미지를 보기 좋게 만들 수 있다
 * [기술 관련 뉴스](https://news.hada.io/) - IT 기술 관련 블로그, 트윗, 뉴스 등 모음
 * [개발자 커리어 관련 정보](https://publyco.notion.site/6f5d06d42f3243949b09b68b9fbcc398) - 커리어스에서 제공한 개발자 관련 정모 모음
+* [위코드 커리큘럼(1)](https://study.wecode.co.kr/session/8) - 위코드 커리큘럼 강의자료
+* [위코드 커리큘럼(2)](https://wecode.notion.site/wecode-Final-Project-876b95e59c0948c5a0e20941737ff6a3) - 위코드 파이널 자료
+* [위코드 특강](https://wecode.notion.site/wecode-Special-Lectures-2e6fd41f222546e8bb836d53ed17b8c7) - 위코드 특강 링크 모음
