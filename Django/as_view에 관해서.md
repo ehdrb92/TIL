@@ -82,8 +82,4 @@ GET ,POST ,PATCH -> get, post, patch
 
 ![django_as_view](./image/django_as_view(2).png)
 
-그 중 as_View라는 메소드가 호출되게 되면 복잡한 내부 로직을 통해 마지막에 dispatch 메소드를 반환한다.
-
-그러면 dispatch 메소드는 클라이언트로 받은 GET, POST, PATCH 등의 요청을 소문자로 변환하여 http_method_names 리스트를 탐색하여 적절한 요청인지를 판별한 이후 handler로 반환한다.
-
-그러면 우리가 작성한 view.py로 가서 짜여진 함수 중 하나가 실행되는 것이다.
+그 중 as_View라는 메소드가 호출되게 되면 복잡한 내부 로직을 통해 마지막에 dispatch 메소드를 반환한다. 그러면 dispatch 메소드는 클라이언트로 받은 GET, POST, PATCH 등의 요청을 소문자로 변환하여 http_method_names 리스트를 탐색하여 적절한 요청인지를 판별한 이후 handler로 반환한다. 그러면 우리가 작성한 view.py로 가서 짜여진 함수 중 하나가 실행되는 것이다.
